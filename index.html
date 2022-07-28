@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- As a link -->
+    <nav class="navbar">
+        <a class="navbarr" >Drawing App</a>
+    </nav>
+    <div class="main">
+        <h1> SHOW YOUR CREATIVITY</h1>
+        <canvas id="canvas" width="1000" height="400"></canvas>
+        <div class="toolbox">
+            <button id="decrease">-</button>
+            <span id="size">10</span>
+            <button id="increase">+</button>
+            <input type="color" id="color" />
+            <button id="download" onclick="download()">Download</button>
+            <button id="clear">Clear</button>
+        </div>
+    </div>
+    
+</body>
+
+</html>
